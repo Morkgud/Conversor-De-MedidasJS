@@ -10,8 +10,13 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
 header {
-  background-color: #b71c1c; 
+  background-color: #b71c1c;
   padding: 1rem;
   text-align: center;
   color: white;
@@ -28,7 +33,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 100px auto;
-  border: solid #b71c1c; 
+  border: solid #b71c1c;
   border-radius: 5%;
   margin-bottom: 100px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
@@ -59,11 +64,11 @@ h1 {
   text-align: center;
   margin-bottom: 20px;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #titulo {
-  color: #b71c1c; 
+  color: #b71c1c;
 }
 
 form {
@@ -73,8 +78,8 @@ form {
 
 label {
   margin-top: 10px;
-  color: #b71c1c; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #b71c1c;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 input,
@@ -83,13 +88,13 @@ select {
   margin: 5px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
-  border-color: #b71c1c; 
+  border-color: #b71c1c;
 }
 
 button {
-  background-color: #dc3545; 
+  background-color: #dc3545;
   color: #fff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   border: none;
   border-radius: 4px;
   padding: 10px;
@@ -108,7 +113,7 @@ button:hover:not(:hover) {
 #resultado {
   margin-top: 20px;
   font-size: 18px;
-  color: #b71c1c; 
+  color: #b71c1c;
 }
 
 /* Media queries para dispositivos móveis */

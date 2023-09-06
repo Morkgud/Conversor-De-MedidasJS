@@ -6,33 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor de Medidas</title>
     <link rel="stylesheet" href="../css/conversor.css" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../imgs/icone.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imgs/icone.png" />
   </head>
   <body>
     <header>
       <h1>Conversor de Medidas</h1>
     </header>
-    <div class="container">
-      <h1 id="titulo">Conversor de Medidas</h1>
-      <form id="converterForm">
-        <label for="valor">Valor:</label>
-        <input type="number" id="valor" required />
 
-        <label for="unidadeOrigem">De:</label>
-        <select id="unidadeOrigem">
-          <!-- Opções das unidades de origem -->
-        </select>
+    <main>
+      <div class="container">
+        <h1 id="titulo">Conversor de Medidas</h1>
+        <form id="converterForm">
+          <label for="valor">Valor:</label>
+          <input type="number" id="valor" required />
 
-        <label for="unidadeDestino">Para:</label>
-        <select id="unidadeDestino">
-          <!-- Opções das unidades de destino -->
-        </select>
+          <label for="unidadeOrigem">De:</label>
+          <select id="unidadeOrigem">
+            <!-- Opções das unidades de origem -->
+          </select>
 
-        <button type="submit">Converter</button>
-      </form>
+          <label for="unidadeDestino">Para:</label>
+          <select id="unidadeDestino">
+            <!-- Opções das unidades de destino -->
+          </select>
 
-      <div id="resultado"></div>
-    </div>
+          <button type="submit">Converter</button>
+        </form>
+
+        <div id="resultado"></div>
+      </div>
+    </main>
 
     <footer>
         <h1><a href="https://github.com/Morkgud" class="texto-footer" >Feito por José Arthur De Siqueira Vieira</a></h1>
